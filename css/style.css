@@ -1,0 +1,105 @@
+/* Logo + text */
+.logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.text {
+    font-weight: bold;
+    font-family: "Brush Script MT", cursive;
+    font-size: 1.5rem;
+}
+
+/* Header background removed because Bootstrap navbar handles it */
+.navbar-light.bg-info {
+    background-color: rgb(12, 193, 224);
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: black;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Image in main section */
+.col-lg-6 img {
+    width: 100%;
+    height: auto;
+}
+/* Offcanvas menu for small devices */
+.custom-offcanvas {
+    width: 40%; /* 30–50% */
+    background-color: rgb(12, 193, 224); /* blue background */
+}
+
+/* Keep navbar links black */
+.custom-offcanvas .nav-link,
+.navbar-nav .nav-link {
+    color: black !important;
+}
+
+.custom-offcanvas .nav-link:hover,
+.navbar-nav .nav-link:hover {
+    color: #333 !important; /* dark hover */
+}
+
+
+/* Buttons */
+.custom-btn {
+    background-color: rgb(12, 193, 224);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.custom-btn:hover {
+    background-color: rgb(12, 193, 224);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.secondary-btn {
+    background-color: white;
+    color: rgb(12, 193, 224);
+    border: 2px solid rgb(12, 193, 224);
+}
+
+.secondary-btn:hover {
+    background-color: rgb(12, 193, 224);
+    color: white;
+}
+
+/* About section */
+.abb {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(12, 193, 224);
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Download CV button */
+.btn-primary {
+    background-color: white;
+    color: rgb(12, 193, 224);
+    border: 2px solid rgb(12, 193, 224);
+}
+
+.btn-primary:hover {
+    background-color: rgb(12, 193, 224);
+    color: white;
+}
